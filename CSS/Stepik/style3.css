@@ -1,0 +1,11 @@
+a, p {
+    color: red;
+  }
+
+.foo {
+    color: blue;
+}
+
+#green {
+    background-color: green;
+}
