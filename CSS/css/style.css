@@ -406,7 +406,6 @@ html {
 
 .body {
     margin: 0 auto;
-    box-sizing: border-box;
     font-family: Roboto, sans-serif;
 /* 
     font-family: Roboto;
@@ -417,13 +416,14 @@ html {
     color: #000000; */
 }
 
-/* .wrapper {
+.wrapper {
     justify-content: center;
     max-width: 1110px; 
     margin: 0 auto;
-} */
+}
 
 .header {
+    height: 84px;
     background-color: #007765;
     position: fixed;
     top: 0;
