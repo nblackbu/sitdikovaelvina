@@ -71,9 +71,12 @@
     width: 100%;
 }
 
-
-
 .hero {
+    background-image: url(./img2/intra.png);
+    background-size: cover;
+}
+
+/* .hero {
     margin: 0 auto;
     background-image: url(./img2/intra.png);
     background-size: cover;
@@ -83,10 +86,10 @@
     /* margin-top: 84px;
     padding-top: 160px;
     padding-bottom: 160px; */
-}
+/* } */
 
 
-.main_container2 {
+/* .main_container2 {
   max-width: 1219px;
   margin-left: auto;
   margin-right: auto;
@@ -94,7 +97,6 @@
   padding-right: 55px;
 }
 .main_title {
-    position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
@@ -132,4 +134,78 @@
     line-height: 84px;
     text-align: center;
     color: black;
+} */
+
+
+
+.image {
+    position: relative;
+    width: 1219px;
+    background-size: cover;
+    background-position: center;
+}
+
+h2 {
+    position: absolute;
+    left: 300px; 
+    top: 250px;
+    width: 100%;
+    color: #fff;
+    font-size: 30px;
+    line-height: 55px;
+}
+
+
+.img2 {
+    background: #EEEEEE;
+}
+
+
+.piper {
+    width: 1219px;
+    height: 83px;
+    left: 0px;
+    top: 244px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 72px;
+line-height: 84px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.problem {
+    width: 1107px;
+    height: 75px;
+    left: 55px;
+    top: 535px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #007765;
+}
+
+.ben {
+    width: 1110px;
+height: 488px;
+left: 55px;
+top: 626px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 37px;
+
+color: #000000;
 }

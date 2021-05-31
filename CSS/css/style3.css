@@ -1,0 +1,367 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.body {
+    display: block;
+    margin: 0;
+    background:#dedbd6; font-size:13px;
+}
+
+
+.header {
+    height: 84px;
+    background-color: #007765;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.main_container {
+    width: 100%;
+    height: 100%;
+    max-width: 1219px;
+    padding-left: 55px;
+    padding-right: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.nav_container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    float: left;
+}
+
+.nav_header {
+    float: right;
+}
+
+.nav_ul {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+.nav_li {
+    display: inline-block;
+}
+
+.nav_a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* HERO  */
+
+.hero {
+    background-image: url(./img2/intra.png);
+    background-size: cover;
+    background-position: center;
+    margin-top: 84px;
+    padding-top: 160px;
+    padding-bottom: 160px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.title {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 72px;
+        line-height: 84px;
+        text-align: center; 
+        /* выравнивает горизонталь */
+        color: #FFFFFF;
+    }
+
+.main_container2 {
+    width: 100%;
+    max-width: 1219px;
+    padding-left: 55px;
+    padding-right: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.telo {
+    padding-top: 55px;
+    padding-bottom: 92px;
+    padding-top: 0 auto;
+    background: #EEEEEE;
+}
+
+
+.main_container3 {
+    background: #EEEEEE;
+    width: 100%;
+    max-width: 1219px;
+    padding-left: 55px;
+    padding-right: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.problem {
+    height: 75px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #007765;
+}
+
+.problemtxt {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    
+    color: #000000;
+}
+
+/* TOGETHER */
+
+.together {
+    width: 100%;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    background-image: url(./img2/together.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.main_container4 {
+    margin: 0 auto;
+    max-width: 1219px;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.ttxt {
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+/* PPC */
+
+
+.intr {
+    background: #FFFFFF;
+}
+.main_container5 {
+    padding-top: 55px;
+    padding-bottom: 92px;
+    width: 100%;
+    max-width: 1219px;
+    padding-left: 55px;
+    padding-right: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+.ppc {
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    /* padding-right: 89px; */
+    width: 115px;
+    height: 115px;
+}
+
+.ppc2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+
+    color: #000000;
+}
+
+.introducing {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+
+    text-align: center;
+
+    color: #007765;
+}
+
+.ppcon {
+    margin-top: 25px;
+}
+
+/* THE TEAM */
+
+.team {
+    background: #EEEEEE;
+}
+
+.main_container6 {
+    padding-top: 55px;
+    padding-bottom: 92px;
+    width: 100%;
+    max-width: 1219px;
+    padding-left: 55px;
+    padding-right: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.the_team {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #007765;
+
+}
+
+.all {
+    padding-top: 55px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+.team_card {
+    width: 350px;
+    height: 283px;
+    padding-top: 55px;
+    left: 55px;
+    text-align: center;
+}
+.izo {
+    width: 168px;
+    height: 168px;
+}
+
+.izo_span {
+    display: block;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+
+
+    color: #007765;
+}
+
+.izo_span2 {
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #000000;
+
+}
+.dinesh {
+    display: inline-block;
+}
+.dineshi {
+    width: 168px;
+    height: 168px;
+}
+
+.bertrami {
+    width: 168px;
+    height: 168px;
+}
+
+
+.all2 {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+.jaredi {
+    width: 168px;
+    height: 168px;
+}
+
+.monicai {
+    width: 168px;
+    height: 168px;
+}
+
+.nelsoni {
+    width: 168px;
+    height: 168px;
+}
+
+/* PODVAL */
+
+.podval {
+    display: flex;
+    background: #333333;
+}
+
+.main_container7 {
+    margin: auto;
+    display: flex;
+    height: 176px;
+    width: 540px;
+    /* text-align: center; */
+}
+
+.podval_txt {
+    margin: auto;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
